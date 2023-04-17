@@ -20,6 +20,7 @@ Create django app and add student details.
 
 
 ## PROGRAM
+```py
 models.py
 
 from django.db import models
@@ -38,6 +39,7 @@ admin.py
 from django.contrib import admin
 from myapp.models import Student,StudentAdmin
 admin.site.register(Student,StudentAdmin)
+```
 
 ## OUTPUT
 ## SERVER OUTPUT
